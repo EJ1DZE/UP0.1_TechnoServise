@@ -101,7 +101,7 @@ namespace TechnoServise.Pages
                     requests.client_id = ReturnClient(addClient);
                     requests.technician_id = ReturnTehnician(addTechnician);
 
-                    var request = EquipmentRepairEntities.GetContext().Request.Where(x => x.request_id == requests.request_id).ToList();
+                    var request = EquipmentRepairEntities.GetContext().Request.Where(x => x.request_id == requests.request_id).FirstOrDefault();
                     if (request == null)
                     {
                         EquipmentRepairEntities.GetContext().Request.Add(requests);

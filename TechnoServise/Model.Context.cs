@@ -16,6 +16,8 @@ namespace TechnoServise
     public partial class EquipmentRepairEntities : DbContext
     {
         private static EquipmentRepairEntities _context;
+
+
         public EquipmentRepairEntities()
             : base("name=EquipmentRepairEntities")
         {

@@ -6,6 +6,7 @@
         <Setter Property="FontSize" Value="12"/>
         <Setter Property="Background" Value="#5EC6CD"/>
         <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="FontFamily" Value="Monotype Corsiva"/>
     </Style>
 
     <Style x:Key="AddLabel"
@@ -14,6 +15,7 @@
         <Setter Property="VerticalAlignment" Value="Center"/>
         <Setter Property="HorizontalAlignment" Value="Right"/>
         <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontFamily" Value="Monotype Corsiva"/>
     </Style>
 
     <Style x:Key="AddTextBox"
@@ -22,6 +24,7 @@
         <Setter Property="VerticalAlignment" Value="Center"/>
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontFamily" Value="Monotype Corsiva"/>
     </Style>
 
     <Style x:Key="AddComboBox"
@@ -29,6 +32,7 @@
         <Setter Property="VerticalAlignment" Value="Center"/>
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="Margin" Value="10,0,0,0"/>
+        <Setter Property="FontFamily" Value="Monotype Corsiva"/>
     </Style>
 
     <Style x:Key="CustomStackPanel"
@@ -40,6 +44,7 @@
     <Style x:Key="ReportTextBlock"
            TargetType="TextBlock">
         <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontFamily" Value="Monotype Corsiva"/>
     </Style>
 
     <Style x:Key="CustomPasswordBox"
@@ -48,6 +53,7 @@
         <Setter Property="VerticalAlignment" Value="Center"/>
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontFamily" Value="Monotype Corsiva"/>
     </Style>
     
 </ResourceDictionary>

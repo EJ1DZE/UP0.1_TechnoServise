@@ -60,6 +60,7 @@ namespace TechnoServise.Pages
                 Name = "FaultTypeQuantity" + labelName,
                 Content = FaultTypeName + " " + FaultTypeCount,
                 FontSize = 12,
+                FontFamily = new System.Windows.Media.FontFamily("Monotype Corsiva"),
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center,
             };
